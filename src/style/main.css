@@ -1,0 +1,83 @@
+body{
+    padding: 40px;
+    background: #D9EAD3;
+}
+
+.title{
+    font-size: 2.5em;
+    color: red;
+
+}
+
+.contportada{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    padding: 40px;
+}
+
+.portada{
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.contproducto{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    overflow-x:auto;
+    box-shadow: 1px 1px 5px 0px;
+}
+
+.contproducto::-webkit-scrollbar{
+    width: 7px;
+    height: 10px;
+    
+}
+
+.contproducto::-webkit-scrollbar-thumb{
+    background: rgb(150, 150, 150);
+    border-radius: 10px;
+}
+
+.cont-card{
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+}
+
+.img-fruta{
+    width: 100px;
+    height: 100px;
+}
+/* ----------------------------formulario------------------------------ */
+
+.cont-formulario{
+    margin-top: 50px;
+    display: flex;
+    flex-direction:column;
+    border-radius: 2px solid;
+}
+
+.form-cont{
+    display: none;
+    flex-direction:column;
+}
+
+.btn-card{
+    width: 140px;
+    margin-top: 2px;
+}
+
+.mainmenubtn{
+    margin-bottom: 20px;
+}
+
+
+.cont-formulario:hover .form-cont{
+    display: flex;
+    transition: 4s;
+  }
